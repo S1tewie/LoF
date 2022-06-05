@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".game5">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/fire_background" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="389dp"
+        android:layout_height="442dp"
+        android:fontFamily="@font/anime_ace"
+        android:text="'Нет, это басни какие то, мы что в фильме? Я не верю, есть доказательства?'
+'Я ожидал что ты не поверишь... Ладно, выбор твой.'
+'Угу...'
+Я отправился на уроки, думал обо всём но всё же не верил... Пожалуй не буду забивать себе голову.
+=================================================================================================
+Этот выбор оказался не самым подходящим. Доверие - хорошее качество, и всё же выбор сделан, как бы не было предсказуемо но Лейд всё равно убьёт главного
+героя."
+        android:textColor="#B99007"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="378dp"
+        android:layout_height="95dp"
+        android:fontFamily="@font/anime_ace"
+        android:text="История будет закончена..."
+        android:textColor="#B99007"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <ImageButton
+        android:id="@+id/Glavniy3"
+        android:layout_width="381dp"
+        android:layout_height="119dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919"
+        app:srcCompat="@drawable/prozrachost" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="349dp"
+        android:layout_height="84dp"
+        android:fontFamily="@font/anime_ace"
+        android:text="Вернуться на главный экран"
+        android:textColor="#651FFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+</androidx.constraintlayout.widget.ConstraintLayout>

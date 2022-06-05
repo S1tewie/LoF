@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutGame">
+
+    <ImageView
+        android:id="@+id/imageAbout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fire_background">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="381dp"
+        android:layout_height="330dp"
+        android:fontFamily="@font/anime_ace"
+        android:text="Lord of Fire - это интересный и захватывающий текстовый квест основанный на потрясающей книге 'Повелитель огня'. В данной игре вы можете очутиться на месте главного героя, ощутить на себе всю тяжесть выбора, от самого лёгкого, до самого трудного и значимого. Следует помнить, что от того как вы поступите, зависит конец всей истории."
+        android:textColor="#DAA801"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageAbout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageAbout"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="392dp"
+        android:layout_height="152dp"
+        android:fontFamily="@font/anime_ace"
+        android:text="Ознакомиться с содержанием первоисточника можно по ссылке: https://litnet.com/ru/book/povelitel-ognya-nachalo-puti-b364340#"
+        android:textColor="#DAA801"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageAbout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.736"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="392dp"
+        android:layout_height="152dp"
+        android:fontFamily="@font/anime_ace"
+        android:text="Игру создали разработчики команды CreavitEniVi: sayl0r и S1tewie"
+        android:textColor="#DAA801"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

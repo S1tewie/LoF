@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LoF/app/src/main/res/layout/activity_about_game.xml" value="0.35260416666666666" />
+        <entry key="..\:/LoF/app/src/main/res/layout/activity_game6.xml" value="0.17395833333333333" />
+        <entry key="..\:/LoF/app/src/main/res/layout/activity_game6_prohod.xml" value="0.17395833333333333" />
+        <entry key="..\:/LoF/app/src/main/res/layout/activity_game6vibor.xml" value="0.35260416666666666" />
+        <entry key="..\:/LoF/app/src/main/res/layout/activity_game7.xml" value="0.35260416666666666" />
+        <entry key="..\:/LoF/app/src/main/res/layout/activity_game8.xml" value="0.25" />
+        <entry key="..\:/LoF/app/src/main/res/layout/activity_people.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/IT-Cube_MP4/AndroidStudioProjects/LoF/app/src/main/res/layout/activity_about_game.xml" value="0.1" />
+        <entry key="..\:/Users/IT-Cube_MP4/AndroidStudioProjects/LoF/app/src/main/res/layout/activity_game.xml" value="0.1" />
+        <entry key="..\:/Users/IT-Cube_MP4/AndroidStudioProjects/LoF/app/src/main/res/layout/activity_game2.xml" value="0.1" />
+        <entry key="..\:/Users/IT-Cube_MP4/AndroidStudioProjects/LoF/app/src/main/res/layout/activity_game3.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/IT-Cube_MP4/AndroidStudioProjects/LoF/app/src/main/res/layout/activity_game4.xml" value="0.2" />
+        <entry key="..\:/Users/IT-Cube_MP4/AndroidStudioProjects/LoF/app/src/main/res/layout/activity_game5.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/IT-Cube_MP4/AndroidStudioProjects/LoF/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/IT-Cube_MP4/AndroidStudioProjects/LoF/app/src/main/res/layout/activity_people.xml" value="0.1" />
+        <entry key="..\:/Users/IT-Cube_MP4/AndroidStudioProjects/LoF/app/src/main/res/layout/activity_vibory.xml" value="0.2" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_about_game.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game.xml" value="0.18" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game10.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game2.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game3.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game3_prohod.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game4.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game5.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game6.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game6_prohod.xml" value="0.15" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game6vibor.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game7.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game8.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game9.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_game9_vtoroi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_people.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Windows/Desktop/LoF/app/src/main/res/layout/activity_vibory.xml" value="0.17481884057971014" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".game7">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/fire_background" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="372dp"
+        android:layout_height="441dp"
+        android:fontFamily="@font/anime_ace"
+        android:text="Симер играет одну из важных ролей в этой истории, не будь он другом главного героя, всё закончилось бы плохо, ваш выбор как раз и показывает это.
+Спустя время прибудет Лейд, он вступит в бой с Симером, Байлоу, в процессе убив их, главный герой прибудет на базу как раз в момент когда бой будет окончен.
+Он увидит тела мёртвых друзей и в ярости бросится в бой с врагом, но не имея опыта, погибнет в бою."
+        android:textColor="#B99007"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="386dp"
+        android:layout_height="114dp"
+        android:fontFamily="@font/anime_ace"
+        android:text="История будет закончена..."
+        android:textColor="#B99007"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <ImageButton
+        android:id="@+id/Glavniy4"
+        android:layout_width="346dp"
+        android:layout_height="106dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897"
+        app:srcCompat="@drawable/prozrachost" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="349dp"
+        android:layout_height="84dp"
+        android:fontFamily="@font/anime_ace"
+        android:text="Вернуться на главный экран"
+        android:textColor="#651FFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+</androidx.constraintlayout.widget.ConstraintLayout>

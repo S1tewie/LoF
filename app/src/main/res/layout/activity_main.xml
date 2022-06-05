@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/lordoffire" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/playButton"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="252dp"
+        android:layout_height="111dp"
+        android:fontFamily="@font/anime_ace"
+        android:shadowColor="@android:color/holo_purple"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="60"
+        android:text="Играть"
+        android:textColor="#B99007"
+        android:textColorHighlight="#DAA801"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#B99007"
+        app:strokeWidth="8dp">
+
+
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/AboutGame"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="199dp"
+        android:layout_height="71dp"
+        android:fontFamily="@font/anime_ace"
+        android:shadowColor="@android:color/holo_purple"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="60"
+        android:text="Об игре"
+        android:textColor="#B99007"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742"
+        app:strokeColor="#B99007"
+        app:strokeWidth="8dp">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <Button
+        android:id="@+id/PersonButton"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="224dp"
+        android:layout_height="69dp"
+        android:fontFamily="@font/anime_ace"
+        android:shadowColor="@android:color/holo_purple"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="60"
+        android:text="Персонажи"
+        android:textColor="#B99007"
+        android:textColorHighlight="#DAA801"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635"
+        app:strokeColor="#B99007"
+        app:strokeWidth="8dp" />
+
+    <!--ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="252dp"
+        android:layout_height="111dp"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485"
+        app:srcCompat="@drawable/prozrachost"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/anime_ace"
+        android:shadowColor="@android:color/holo_red_dark"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="10"
+        android:text="Играть"
+        android:textColor="#F8BB00"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="0.492" /-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
